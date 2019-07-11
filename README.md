@@ -4,4 +4,4 @@
 python=3.6
 
 ## installed
-tensorflow<br/>
+tensorflow packages<br/>

@@ -12,14 +12,15 @@ V = '1.0'
 
 FILENAMEV = FILENAME + V
 
-HSIZE = 48 # input 이미지 height 크기
+# Flatten() 함수 때문에 input 이미지 크기를 고정해야 한다.
 WSIZE = 32 # input 이미지 width 크기
+HSIZE = 48 # input 이미지 height 크기
 
 
 # 기존 모델을 불러오고 싶다면 다음 코드 추가
 # model = tf.keras.models.load_model('./saved/'+FileNameV+'.h5')
 
-encoder_input = keras.Input(shape=(WSIZE, HSIZE, 3), name='img')
+encoder_input = keras.Input(shape=(WSIZE, HSIZE, 1), name='img')
 x = layers.Conv2D(32, kernel_size=3, padding='same', activation='relu')(encoder_input)
 x = layers.Conv2D(32, kernel_size=3, padding='same', activation='relu')(x)
 x = layers.MaxPooling2D(2)(x)

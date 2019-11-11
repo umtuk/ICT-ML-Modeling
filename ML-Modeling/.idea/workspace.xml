@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52217de3-080c-4c09-80aa-4bec0104525f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/임시.py" beforeDir="false" afterPath="$PROJECT_DIR$/임시.py" afterDir="false" />
-    </list>
+    <list default="true" id="52217de3-080c-4c09-80aa-4bec0104525f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="757" y="31" width="974" height="1016" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3611111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
